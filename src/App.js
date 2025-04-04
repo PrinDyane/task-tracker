@@ -44,7 +44,7 @@ return (
       {tasks.map((task, index)=>(
         <li key={index}>
           {task}{''}
-          <button onclick={() => deleteTask(index)} className="delete-button">
+          <button onClick={() => deleteTask(index)} className="delete-button">
             x
           </button>
         </li>
