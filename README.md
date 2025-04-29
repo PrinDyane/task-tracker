@@ -9,25 +9,36 @@ A simple task tracker application built with **React**, **JavaScript**, **HTML**
 - Remove tasks from the list.
 - Responsive layout for desktop and mobile.
 
-## Technologies Used
+## Technologies
 
 - **React**: JavaScript library for building user interfaces.
 - **JavaScript**: The programming language used for app functionality.
 - **HTML**: Markup language used for structure.
 - **CSS**: Styling language used for layout and design.
 
-## Getting Started
+## 
 
-To get a local copy of this project up and running, follow these steps:
+### How to run Task Tracker
 
-### Prerequisites
-
-Make sure you have the following installed on your local machine:
+Follow the steps: 
 
 - **Node.js**: A JavaScript runtime that is required to run the app. [Download Node.js](https://nodejs.org/)
 
-### Installation
+- clone the repository
 
-1. Clone the repository:
    ```bash
-   git clone https://github.com/PrinDyane/task-tracker.git
+   git clone https://github.com/username/repository-name.git
+
+- access repository-name
+    ```bash
+   cd TASK_TRACKER
+
+- Install dependencies 
+    ```bash
+   npm install 
+- run app 
+    ```bash
+    npm start
+
+    
+Made with 💜 by Dyane Albuquerque 

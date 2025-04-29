@@ -11,15 +11,12 @@ const whenTyping = (event) => {
   setTaskText(event.target.value);
 };
 
-//Add task
 const addNewTask = () => {
   if (taskText.trim() !== '') {
     setTasks([...tasks, taskText]);
     setTaskText('');
   }
 };
-
-//Remove index
 
 const deleteTask = (indexToRemove) => {
   const updatedTasks = tasks.filter((_,index) => index !== indexToRemove);
